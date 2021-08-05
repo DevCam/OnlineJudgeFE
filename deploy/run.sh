@@ -10,7 +10,7 @@ build_vendor_dll()
   fi
 }
 cd $base
-npm install --registry=https://registry.npm.taobao.org && \
+npm install && \
 build_vendor_dll && \
 npm run build
 
