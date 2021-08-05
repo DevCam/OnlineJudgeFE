@@ -6,7 +6,7 @@
         <router-view></router-view>
       </transition>
       <div class="footer">
-        <img class="iteso" src="../../assets/Iteso.png"/>
+        <img class="iteso" src="../../assets/iteso.png"/>
         <p v-html="website.website_footer"></p>
         <p>Powered by <a href="https://github.com/DevCam/OnlineJudge">OnlineJudge</a> - devcam fork
           <span v-if="version">&nbsp; Version: {{ version }}</span>
